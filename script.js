@@ -88,6 +88,7 @@ function game(code){
 			var paddle = document.createElement("DIV");
 			paddle.id = "paddle";
 			paddle.className = "leftp";
+			paddle.style.top = document.body.clientHeight / 2 + "px";
 			r.appendChild(paddle);
 			var score = document.createElement("SPAN");
 			score.id = "scorer";
@@ -193,6 +194,7 @@ function checkCode(e){
 						var paddle = document.createElement("DIV");
 						paddle.id = "paddle";
 						paddle.className = "rightp";
+						paddle.style.top = document.body.clientHeight / 2 + "px";
 						r.appendChild(paddle);
 						var score = document.createElement("SPAN");
 						score.id = "scorel";
