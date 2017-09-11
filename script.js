@@ -91,7 +91,7 @@ function game(code){
 			r.appendChild(paddle);
 			var score = document.createElement("SPAN");
 			score.id = "scorer";
-			score.innerHTML = 0;
+			score.innerHTML = "0";
 			r.appendChild(score);
 			window.onmousemove = function(e){
 				paddle.style.top = e.clientY + "px";
@@ -196,7 +196,7 @@ function checkCode(e){
 						r.appendChild(paddle);
 						var score = document.createElement("SPAN");
 						score.id = "scorel";
-						score.innerHTML = 0;
+						score.innerHTML = "0";
 						r.appendChild(score);
 						data.p2 = {
 							ratio: ratio,
