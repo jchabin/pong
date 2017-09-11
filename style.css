@@ -54,6 +54,7 @@ body{
 	width: 5vh;
 	background-color: white;
 	position: fixed;
+	top: 50vh;
 	transform: translateX(-2.5vh) translateY(-15vh);
 /* 	transition: top .1s; */
 }
